@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'home.dart';
-import 'message.dart';
-import 'mine.dart';
+import 'package:navigation_app/home/home.dart';
+import 'package:navigation_app/second/message.dart';
+import 'package:navigation_app/mine/mine.dart';
 
 void main() => runApp(new MyApp());
 

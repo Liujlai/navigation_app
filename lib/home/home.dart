@@ -64,13 +64,13 @@ class  homePageState extends  State<homePage>{
         //child 居中
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          new Icon(icon, color: Colors.blue[500]),
+          new Icon(icon, color: Colors.cyan[500]),
           new Container(
               margin: const EdgeInsets.only(top: 8.0),
               child: new Text(
                 text,
                 style: new TextStyle(
-                  color: Colors.blue[500],
+                  color: Colors.cyan[500],
                 ),
               ))
         ],
@@ -107,6 +107,9 @@ class  homePageState extends  State<homePage>{
      */
     return new MaterialApp(
       title: "Layout",
+      theme: ThemeData(
+        primaryColor: Colors.cyan,
+      ),
       home: new Scaffold(
         appBar: new AppBar(
           title: new Text("home Layout"),
